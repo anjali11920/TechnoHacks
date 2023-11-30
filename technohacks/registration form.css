@@ -1,0 +1,113 @@
+*{          margin: 0;
+                       padding: 0;
+                       font-size: 17px;
+                       font-family: 'EB Garamond', serif;
+font-family: 'Pacifico', cursive;
+
+}
+body {
+                       background-image: url('hackpic/15.jpg');
+                       background-repeat: no-repeat;
+                       background-position:center;
+                       background-attachment: fixed;
+                       background-size: cover;
+}
+.heading{
+                       margin-left: 80px;
+                       margin-top: 180px;
+                       transform: rotate(345deg);
+                       
+}
+table{
+                       border-radius: 20px;
+                       padding: 10px;
+                       background-color: rgb(0,0, 0,0.3);
+                      
+
+}
+td{
+                       padding-left: 10px;
+                       padding-right:10px;
+                       border-radius:2px ;
+                       padding-top: 5px;
+                       padding-bottom: 5px;
+                       color: rgb(248, 218, 218);
+}
+form{
+                       border-radius: 20px;
+                       margin-left: 60px;
+                       color: rgb(249, 229, 229);
+                       box-shadow: 0px 2px 3px 3px red,0px 3px 4px 4px rgb(234, 255, 0),
+                       0px 4px 5px 5px rgb(153, 0, 255);
+
+
+}
+
+
+div {
+                       margin-top: 2px;
+                       padding: 5px;
+                       border-radius: 20px;
+
+                      
+}
+.block{
+                       display: inline-flex;
+                       
+}
+
+
+table {
+                     background-color: rgba(92, 32, 197, 0.1);
+}
+
+pre{
+                       font-size: 50;
+                       color: #4f148f;
+                       text-shadow: 0px 0px 3px #aebf11,0px 4px 4px #d63a3a;
+}
+pre:hover{
+                       font-size: 50;
+                       color: #c92828;
+                       text-shadow: 0px 0px 3px #8b11bf,0px 4px 4px #f9d404;
+}
+
+
+::placeholder {
+                       color: #1a7805;
+                       outline: #f44405;
+                      background-color: rgba(230, 177, 43, 0.752);
+                       
+                       
+
+                       
+
+
+}
+button{
+                       color: rgb(242, 219, 9);
+                       background-color: rgb(255, 13, 0);
+                       font-size: 25px;
+                       border: rgb(248, 248, 6) solid 2px;
+                       border-radius: 15px;
+                       padding-left: 10px;
+                       padding-right: 10px;
+}
+
+button:hover{
+                       color: rgb(242, 21, 9);
+                       background-color: rgb(255, 217, 0);
+                       font-size: 25px;
+                       border: rgb(246, 4, 4) solid 2px;
+                       border-radius: 15px;
+                       padding-left: 10px;
+                       padding-right: 10px;
+}
+input[type='text']
+{
+                       color: #ec0d0d;
+}
+input[type='email']
+{
+                       color: #ec0d0d;
+}

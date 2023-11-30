@@ -1,0 +1,305 @@
+.home {
+  background-image: url('hackpic/12.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid rgb(19, 1, 1) 1px;
+  padding-bottom: 150px;
+
+
+
+}
+
+nav ul li a {
+  color: rgb(31, 1, 8);
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgb(230, 210, 172);
+  text-transform: lowercase;
+  margin-top: 10px;
+  padding: 6px;
+
+  border-radius: 10px;
+  background-color: rgba(253, 249, 10, 0.663) 124, 7, 0.663;
+  border: 2px rgb(243, 231, 209) double;
+  padding: 5px;
+  border: 1px solid black;
+
+
+
+}
+
+nav ul li a:hover {
+  color: #11a3c7;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(34, 10, 253, 0.663) 124, 7, 0.663;
+  border: 2px rgb(209, 210, 243) double;
+  padding: 5px;
+  border: 1px solid rgb(9, 168, 236);
+
+}
+
+nav {
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-top: 15px;
+
+  padding-right: 500px;
+
+
+
+}
+
+nav ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 10px 20px;
+  margin-right: 20px;
+
+
+}
+
+.quote {
+  font-size: 40px;
+  color: rgb(237, 11, 56);
+  text-shadow: 0px 0px 5px rgb(35, 2, 2);
+  text-transform: uppercase;
+
+  margin-top: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.subheading {
+  font-size: 25px;
+  color: rgb(2, 5, 50);
+  text-shadow: 0px 0px 2px rgb(15, 15, 18);
+  text-transform: lowercase;
+  margin-left: 100px;
+  margin-top: -50px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.about {
+  background-image: url('hackpic/4.jpg');
+  background-position: center;
+  background-attachment: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.benefit {
+  background-position: center;
+  width: 750px;
+  height: 580px;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+  border-radius: 30%;
+  border: yellow solid 2px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px 5px yellow, 5px 5px 5px 5px rgb(239, 239, 102);
+
+
+}
+
+#poses {
+  background-image: url(techpic/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.poses {
+  background-image: url('hackpic/11.jpg');
+  background-position: center;
+  background-attachment: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+
+}
+
+.poses h2 {
+  color: rgb(54, 4, 4);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  text-shadow: #c7c711 1px 1px 1px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid rgb(224, 232, 9);
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px darkgreen;
+  margin-top: 100px;
+
+}
+
+.box .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 2050;
+  overflow: hidden;
+}
+
+.content {
+
+  padding-bottom: 8px;
+
+  background-image: url(techpic/11.jpg);
+  background-repeat: no-repeat;
+}
+
+.content p {
+  margin-left: 100px;
+  color: rgb(21, 6, 35);
+  font-size: 20px;
+
+
+
+}
+
+.content button {
+  margin-left: 100px;
+  background-color: rgb(53, 20, 20);
+  color: bisque;
+  padding: 5px;
+}
+
+.content button:hover {
+  background-color: rgb(218, 197, 12);
+  color: rgb(62, 35, 2);
+
+}
+
+#contact {
+
+  background-color: rgba(6, 51, 34, 0.952);
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-image: url('hackpic/11.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.contact-info,
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(2, 46, 27);
+  font-size: 25px;
+  text-shadow: 0px 2px 2px #145b13fb;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 28px;
+  color: rgb(4, 52, 37);
+  text-shadow: 0px 2px 2px #10d09afb;
+}
+
+.contact-form form {
+  text-align: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.contact-form button {
+
+  background-color: rgb(71, 54, 5);
+  color: rgb(235, 218, 150);
+  text-decoration: none;
+  border: 2px solid rgb(66, 55, 13);
+  font-weight: bold;
+  transform: 4s;
+
+  text-shadow: 0px 0px 10px rgb(75, 75, 4);
+  box-shadow: 0px 5px 10px rgb(66, 55, 13);
+  border-radius: 30%;
+
+
+  text-decoration: none;
+
+
+
+  padding: 10px 0px;
+}
+
+.contact-form button:hover {
+  background-color: rgb(245, 243, 241);
+  color: black;
+  border: 2px solid rgb(239, 238, 237);
+  cursor: pointer;
+}
+
+.contact-form label {
+  text-align: left;
+  color: rgb(7, 32, 13);
+
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+}
+
+.contact-info p {
+  padding: 15px;
+
+}
+
+.footer {
+
+
+  background-color: rgb(28, 19, 2);
+  padding: 20px;
+}
+
+.footer h5 {
+
+  font-size: 25px;
+  text-align: center;
+  color: rgb(231, 239, 236);
+
+}
